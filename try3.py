@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+
 import streamlit as st
 import os
 import google.generativeai as genai
@@ -6,10 +6,10 @@ import pandas as pd
 from fuzzywuzzy import fuzz
 
 # Load environment variables from .env file
-load_dotenv()
+
 
 # Configure GenerativeAI with Google API key
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=os.getenv("AIzaSyBVM7enBvs-oDfl_3zr86SYtF60pW7ebBQ"))
 
 # Load the Gemini model
 model = genai.GenerativeModel("gemini-pro")
