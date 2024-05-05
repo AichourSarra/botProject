@@ -15,7 +15,7 @@ genai.configure(api_key=os.getenv("AIzaSyBVM7enBvs-oDfl_3zr86SYtF60pW7ebBQ"))
 model = genai.GenerativeModel("gemini-pro")
 
 # Read the CSV file containing questions and answers
-file_path = r"C:\Users\Mustapha\Downloads\chnse (2)\chnse\file.csv"
+file_path = r"file.csv"
 knowledge_df = pd.read_csv(file_path)
 
 # Function to get response from Gemini model
