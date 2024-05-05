@@ -1,5 +1,4 @@
-python==3.12
-dotenv==0.0.5
+dotenv
 streamlit==1.33.0
 os
 google.generativeai==0.5.2
