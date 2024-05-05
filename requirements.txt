@@ -1,3 +1,4 @@
+python==3.12
 dotenv==0.0.5
 streamlit==1.33.0
 os
